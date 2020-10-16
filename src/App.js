@@ -1,43 +1,43 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 
-import Home from './components/Home1';
-import About from './components/About';
-import Skills from './components/Skills';
-import Service from './components/Service';
-import Work from './components/work';
-import Hire from './components/Hire';
-import Navbar from './components/Navbar'
-import Footer from './components/Foooter'
-import Testimonials from './components/Testimonials'
+import Home from "./components/Home";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Service from "./components/Service";
+import Work from "./components/work";
+import Hire from "./components/Hire";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
     <div className="App">
-      <Navbar></Navbar>
+      <Navbar />
       <div className="Home">
-      <Home></Home>
+        <Home />
       </div>
-      <div className='About'>
-        <About></About>
+      <div className="About">
+        <About />
       </div>
-      <div className='Service'>
-        <Service></Service>
+      <div className="Service">
+        <Service />
       </div>
-      <div className='Works'>
-        <Work></Work>
+      <div className="Works">
+        <Work />
       </div>
-      <div className='Skills'>
-        <Skills></Skills>
+      <div className="Skills">
+        <Skills />
       </div>
-      <div className='Testimonials'>
-        <Testimonials></Testimonials>
+      <div className="Testimonials">
+        <Testimonials />
       </div>
-      <div className='Hire'>
-        <Hire></Hire>
+      <div className="Hire">
+        <Hire />
       </div>
-      <div className='Footer'>
-        <Footer></Footer>
+      <div className="Footer">
+        <Footer />
       </div>
     </div>
   );
