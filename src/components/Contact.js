@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
-import Fade from 'react-reveal/Fade';
-import data from '../yourdata'
+import React from "react";
+import Fade from "react-reveal/Fade";
+import data from "../yourdata";
 
-class Contact extends Component {
-state = {  }
-render() {
-return (  <div>
-  {/* <h1>
+function Contact() {
+  return (
+    <div>
+      {/* <h1>
   <Fade bottom cascade> Contact.</Fade>
   </h1>
   <Fade bottom>
@@ -59,12 +58,12 @@ return (  <div>
     <div className="footer">
       <p>2020 &copy; Sujan Bhattarai</p>
     </div>
-  
-  
+
+
   </Fade>
    */}
-</div>);
-}
+    </div>
+  );
 }
 
 export default Contact;
