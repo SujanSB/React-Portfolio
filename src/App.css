@@ -374,8 +374,8 @@ height: 18em;
 .cover {
   transition: 2s ease;
   opacity: 0;
-  position: absolute;
-  top: 50%;
+  position: relative;
+  top: -50%;
   left: 50%;
   height: 100%;
   width: 100%;
@@ -391,7 +391,6 @@ height: 18em;
 }
 .middle{
   color: white;
-  font-size: 20px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -401,7 +400,9 @@ height: 18em;
   text-align: center;
 }
 .middle h2{
-  margin:20px;
+  margin:10px;
+  font-size: 20px;
+
 }
 .middle a{
   color: #fff;
