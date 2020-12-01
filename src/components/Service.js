@@ -33,10 +33,10 @@ function Service() {
           <div className="service-3">
             <div className="inner-part">
               <i class="fas fa-cogs"></i>
-              <h2>S.E.O</h2>
+              <h2>Mobile App Development</h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry
+                Having an experience of 1 years react-native, I can say
+                Building native-app is a fun.
               </p>
             </div>
           </div>
