@@ -5,7 +5,7 @@ import data from "../yourdata";
 function Contact() {
   return (
     <div>
-      {/* <h1>
+      <h1>
   <Fade bottom cascade> Contact.</Fade>
   </h1>
   <Fade bottom>
@@ -61,7 +61,7 @@ function Contact() {
 
 
   </Fade>
-   */}
+  
     </div>
   );
 }

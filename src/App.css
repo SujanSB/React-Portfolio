@@ -8,7 +8,7 @@ body{
   z-index: 1;
   margin: 0;
   padding: 0;
-  /* background-color: #100e17; */
+  /* background-color: #1eeb03; */
 }
 
 
@@ -536,28 +536,28 @@ height: 18em;
 }
 
 .hire{
-  width: 40%;
-  margin:20px auto;
+  width: 50%;
+  margin:15px auto;
+  align-items: center;
   background-color: rgb(133,0,255);
 }
 .hire .innerpjw-section{
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  align-items: center;
   justify-items: center;
 }
 .innerpjw-section .qnstext{
   width: 80%;
-  text-align: start;
+  text-align: center;
 }
 .innerpjw-section .gowithus{
   width: 20%;
   justify-items: center;
-  align-items: center;
 
 }
 .gowithus button{
-  padding: 1.4rem;
+  padding: 8px 14px;
   border: none;
   margin: auto;
   outline: none;
@@ -588,30 +588,20 @@ height: 18em;
 
 .Footer{
   width:100%;
-  margin:5% 0% 0% 0%;
-  position: relative;
   bottom: 0;
+  padding: 30px;
   background-color: black;
 }
 .footer{
   margin: auto;
-  display: flex;
-  justify-content: space-between;
   color: #ffffff;
-  height: 180px;
 }
-.footer .logo-placed
+.footer .Fav-quotes
 {
-  width: 25%;
-  align-items: flex-start;
+  text-align: center;
 }
-.logo-placed img{
-  width:100%;
-  height: 175px;
 
-}
 .footer .social-icon{
-  width: 50%;
   margin-top: 3%;
   text-align: center;
   justify-content: center;
@@ -633,7 +623,7 @@ height: 18em;
   background-color: #8500ff;
 }
 .footer .copyright{
-  width: 25%;
+  align-items: center;
   margin-top: 3%;
   font-size: 25px;
 }

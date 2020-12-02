@@ -8,8 +8,8 @@ function Footer() {
     <div>
       <Fade bottom cascade>
         <div className="footer">
-          <div className="logo-placed">
-            <img src={logo} alt="suzan" />
+          <div className="Fav-quotes">
+            <h2>"Keep Your Dreams higher than your thoughts"</h2>
           </div>
           <div className="social-icon">
             <a href="/">
@@ -26,7 +26,7 @@ function Footer() {
             </a>
           </div>
           <div className="copyright">
-            <p>&copy; 2019 copyright all right reserved</p>
+            <p>&copy; 2019 invalidsb</p>
           </div>
         </div>
       </Fade>

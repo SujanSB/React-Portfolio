@@ -9,6 +9,11 @@ import Work from "./components/work";
 import Hire from "./components/Hire";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+
+import MainNav from './components/MainNav'
+import Contact from "./components/Contact";
+import Blog from "./components/Blog";
+
 import Testimonials from "./components/Testimonials";
 import {BrowserRouter as Router ,Route,Switch} from 'react-router-dom'
 
@@ -48,19 +53,11 @@ function Base() {
 
 const  App=()=>{
 
-  const Blog=()=>{
-    return <h1> Blog Page</h1>
-  }
-  const Contact=()=>{
-    
-    return <h1> Contact Page</h1>
-  }
-
-
 
 return(
 
 <Router>
+  <MainNav/>
   <Switch>
     <Route exact path='/' component={Base} />
     <Route exact path ="/Blog" component={Blog}  />
