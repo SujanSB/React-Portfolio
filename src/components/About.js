@@ -46,8 +46,8 @@ function About() {
           <div className="project-text">
             <h3>Project Completed</h3>
             <p>
-              Over the past two years, I have completed over 100 software
-              projects including iOS/Android apps, and web apps.
+              Over the past two years, I have completed over 30 software
+              projects including iOS/Android apps, and Web apps.
             </p>
           </div>
         </div>
