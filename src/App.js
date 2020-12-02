@@ -10,8 +10,11 @@ import Hire from "./components/Hire";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Testimonials from "./components/Testimonials";
+import {BrowserRouter as Router ,Route,Switch} from 'react-router-dom'
 
-function App() {
+
+
+function Base() {
   return (
     <div className="App">
       <Navbar />
@@ -42,5 +45,34 @@ function App() {
     </div>
   );
 }
+
+const  App=()=>{
+
+  const Blog=()=>{
+    return <h1> Blog Page</h1>
+  }
+  const Contact=()=>{
+    
+    return <h1> Contact Page</h1>
+  }
+
+
+
+return(
+
+<Router>
+  <Switch>
+    <Route exact path='/' component={Base} />
+    <Route exact path ="/Blog" component={Blog}  />
+    <Route  exact path="/Contact" component={Contact}/>
+  </Switch>
+</Router>
+
+
+
+
+)
+}
+
 
 export default App;

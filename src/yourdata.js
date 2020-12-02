@@ -1,15 +1,39 @@
 export default
     {
-        name :'InvalidSB',
-        homepageData: ['Hi ,Wellcome!!',' I am Sujan Bhattarai.',
-                        'Computer Engineer ',
-                      
-    ],
-       contactEmail:'invalidSB45@gmail.com',
+        name :'Sujan Bhattarai.',
+        homepageData: ['Hello you found me .','Wellcome!!',],
+
+        contactEmail:'invalidSB45@gmail.com',
         abouttext: "I am a Computer engineering student currently at third year. I have a deep curiocity on Data-Science and Web development. Love to learn new things #peace..",
         aboutImage:'https://pbs.twimg.com/media/Dw7EWPGXcAA11va?format=jpg&name=small',
         ShowAboutImage:true,
        
+
+        skills:[
+                {
+                    id:1,
+                    name:'Front-End Development',
+                    desc:"I Love to code things from scratch, and enjoy bringing ideas to life in the browser.",
+                    icon:'fas fa-paint-brush'
+                
+                },
+                {
+                    id:1,
+                    name:'Back-End Development',
+                    desc:" I really care about backend programming, and love optimizing speed for the users.",
+                    icon:'fas fa-code'
+
+                },
+                {
+                    id:1,
+                    name:'Mobile App Development',
+                    desc:"Having an experience of 1 years react-native, I can say Building native-app is a fun.",
+                    icon:'fas fa-cogs'
+
+                }
+
+
+        ],
 
         projects:[
             {

@@ -18,18 +18,7 @@ import img12 from "../assets/images/12.png";
 function Home() {
   return (
     <div className="Home">
-      {/* <header>
-                <h1>
-                    <Fade bottom cascade>{data.name}</Fade></h1>
-            </header>
-            <Fade bottom>
-            <p className='Sidebox'>
-            <h4>{data.homepageData[0]} </h4><br/><span>{data.homepageData[1]}</span><br></br>
-            {data.homepageData[2]}
-               <br></br>
-                    <button><a href="/">DownloadCV</a></button>
-                </p>
-            </Fade> */}
+      
       <section ClassName="home">
         <img src={img1} data-speed="-5" class="layer" alt="cover" />
         <img src={img2} data-speed="5" class="layer" alt="cover" />
@@ -38,18 +27,18 @@ function Home() {
         <img src={img5} data-speed="8" class="layer" alt="cover" />
         <img src={img6} data-speed="2" class="layer" alt="cover" />
         <img src={img7} data-speed="4" class="layer" alt="cover" />
-        <img src={img8} data-speed="-9" class="layer" alt="cover" />
+        <img src={img8} data-speed="-5" class="layer" alt="cover" />
         <img src={img9} data-speed="6" class="layer" alt="cover" />
         <img src={img10} data-speed="-7" class="layer" alt="cover" />
         <img src={img11} data-speed="-5" class="layer" alt="cover" />
-        <img src={img12} data-speed="5" class="layer" alt="cover" />
+        <img src={img12} data-speed="-2" class="layer" alt="cover" />
         <div id="bichko" class="layer" data-speed="2">
-          <h2>Hello you found me .....</h2>
+          <h2>{data.homepageData[0]}</h2>
 
-          <h3>Wellcome !!!</h3>
+          <h3>{data.homepageData[1]}</h3>
 
           <h1>
-            I'm <spam>Sujan Bhattarai</spam>
+            I'm <spam>{data.name}</spam>
           </h1>
         </div>
       </section>
