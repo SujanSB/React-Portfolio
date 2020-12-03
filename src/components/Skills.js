@@ -1,5 +1,7 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
+import data from '../yourdata'
+
 function Skills() {
   return (
     <div>
@@ -8,40 +10,49 @@ function Skills() {
           <h1>Other Skills.</h1>
         </Fade>
         <p>
-          {" "}
           Everyday I try to learn new things. I Love to get deep about
           technology.
         </p>
       </div>
       <Fade bottom cascade>
-        <div className="skillset">
+        <div className="skillset owl-carousel">
+
           <div className="skill-inner">
-            <div className="skill-one">
-              <h2>Data Science</h2>
+            <div className="skill one">
+              <h2>{data.skills[0].title}</h2>
               <p>
-                Currently I am interested about machine learning. I've done
-                thesis on DEEP LEARNING in undergrad
+                {data.skills[0].desc}
+                
               </p>
             </div>
           </div>
           <div className="skill-inner">
-            <div className="skill-two">
-              <h2>Python,Java,</h2>
+            <div className="skill two">
+              <h2>{data.skills[1].title}</h2>
               <p>
-                I really like to know about different programming languges. I
-                know python, java & some more.
+              {data.skills[1].desc}
+                
               </p>
             </div>
           </div>
           <div className="skill-inner">
-            <div className="skill-three">
-              <h2>Photography</h2>
+            <div className="skill three">
+              <h2>{data.skills[2].title}</h2>
               <p>
-                Photography is one of my passion, when i find some time i love
-                to go out with my camera.{" "}
+              {data.skills[2].desc}
+
               </p>
             </div>
           </div>
+          {/* <div className="skill-inner">
+            <div className="skill three">
+              <h2>{data.skills[3].title}</h2>
+              <p>
+              {data.skills[3].desc}
+
+              </p>
+            </div>
+          </div> */}
         </div>
       </Fade>
     </div>
@@ -49,3 +60,27 @@ function Skills() {
 }
 
 export default Skills;
+
+// # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+// # dependencies
+// /node_modules
+// /.pnp
+// .pnp.js
+
+// # testing
+// /coverage
+
+// # production
+// /build
+
+// # misc
+// .DS_Store
+// .env.local
+// .env.development.local
+// .env.test.local
+// .env.production.local
+
+// npm-debug.log*
+// yarn-debug.log*
+// yarn-error.log*

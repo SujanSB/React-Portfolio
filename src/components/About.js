@@ -19,7 +19,7 @@ function About() {
             <div className="info">
               <div className="list">
                 <label>Age:</label>
-                <p>22 Yr</p>
+                  <p>{data.age}</p>
               </div>
               <div className="list">
                 <label>Phone:</label>

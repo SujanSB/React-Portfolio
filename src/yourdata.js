@@ -7,9 +7,10 @@ export default
         abouttext: "I am a Computer engineering student currently at third year. I have a deep curiocity on Data-Science and Web development. Love to learn new things #peace..",
         aboutImage:'https://pbs.twimg.com/media/Dw7EWPGXcAA11va?format=jpg&name=small',
         ShowAboutImage:true,
+        age:22,
        
 
-        skills:[
+        service:[
                 {
                     id:1,
                     name:'Front-End Development',
@@ -87,6 +88,55 @@ export default
             }
                 
         ],
+            skills:[
+                {
+                    id:1 ,
+                    title:"Data Science",
+                    desc:"Currently I am interested about machine learning. I've done thesis on DEEP LEARNING in undergrad"
+                },
+                {
+                    id:2 ,
+                    title:"Python,",
+                    desc:"I really like to know about different programming languges. I know python, java & some more."
+                },
+                {
+                    id:3 ,
+                    title:"Photography",
+                    desc:" Photography is one of my passion, when i find some time i love to go out with my camera."
+                },
+                // {
+                //     id:4 ,
+                //     title:"",
+                //     desc:"."
+                // }
+            ],
+
+        testimonials: [
+            {
+              id: 1,
+              name: "Prerit Bhandari",
+              whoami: "Founder of initdevelops",
+              image:
+                "https://cdn.pixabay.com/photo/2017/10/24/07/13/hacker-2883635__340.jpg",
+              describe:
+                "Sujan is a very enthusiastic learner. I have collabed with him on many projects. Interesting Person.",
+            },
+            {
+              id: 2,
+              name: "Anuj Poudel",
+              whoami: "Founder of invocea",
+              image:
+                "https://cdn.pixabay.com/photo/2017/10/24/07/13/hacker-2883635__340.jpg",
+              describe:
+                "Sujan is a very enthusiastic learner. I have collabed with him on many projects. Interesting Person.",
+            },
+          ],
+
+
+
+
+
+
         social: [
             {   name:'Github',
                 url:'https://github.com/invalidsb'},

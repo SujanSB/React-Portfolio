@@ -5,10 +5,13 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-elastic-carousel": "^0.9.5",
     "react-reveal": "^1.2.2",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.3",
-    "react-scroll": "^1.7.12"
+    "react-scroll": "^1.7.12",
+    "react-transition-group": "^4.4.1",
+    "styled-components": "^5.2.1"
   },
   "scripts": {
     "start": "react-scripts start",

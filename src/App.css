@@ -15,6 +15,50 @@ body{
 .App {
   text-align: center;
 }
+/* Top nav */
+
+  
+.Topnavbar{
+  position: fixed;
+  height: 80px;
+  overflow: hidden;
+  top: 0;
+  display: flex;
+  align-items: center;
+  background: #f1f1f1;
+  width: 100%;
+}
+.brand{
+  color: #000;
+  font-size: 25px;
+  font-weight: bold;
+  background-size: contain;
+  width: 180px;
+  height: 18px;
+  float: left;
+  margin-left:20px;
+}
+.Topmenu{
+  position: relative;
+  right: 20px;
+}
+.Topmenu a{
+  color: #333;
+  text-decoration: none;
+  font-weight: 700;
+  margin-left: 20px;
+  transition: color 0.3s;
+  text-transform: uppercase;
+}
+.meTopmenunu a:hover{
+  color: #6ab04c;
+}
+
+
+
+
+
+/* Top nav */
 /* 
 .Home {
   margin: 0;
@@ -47,6 +91,7 @@ body{
 section{
   position: relative;
   width: 100%;
+  margin-top: 100px;
   height: 100vh;
   overflow: hidden;
   background-color: #111;
@@ -426,7 +471,8 @@ height: 18em;
 /* Skills Section Start */
 .Skills{
   width: 100%;
-  margin:5% auto;
+  margin: auto;
+  margin-bottom: 10%;
 }
 .Skills h1{
   font-family: 'Montserrat', sans-serif;
@@ -449,11 +495,12 @@ height: 18em;
 }
 
 .skillset{
-  display: flex;
+  flex: 0 0 100%;
+  width: 70%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
   margin: -5% auto;
-  width: 60%;
-  justify-content: space-between;
-  margin-bottom: 3%;
   
 }
 .skillset .skill-inner:hover{
@@ -461,68 +508,80 @@ height: 18em;
   color: #ffffff;
 }
 .skillset .skill-inner{
-  box-shadow: 0 0 5px;
-  height: 200px;
-  width: 33%;
-  background-color: #ffffff;
+
+  flex:0 0 calc(30% - 45px);
+  max-width: calc(30% - 45px);
+  background-color: rgb(27, 27, 27);
+  padding: 20px 10px;
+  border-radius: 10px;
+  color:#ffffff;
+
+  /* box-shadow: 0 0 5px;
+  flex:0 0 calc(33.33% - 25px);
+  max-width: calc(33.33% - 25px);
+  background-color: #030303;
   border-radius: 20px;
   margin: 20px;
   padding: 20px 10px;
-  border:1px solid #8500ff
+  border:1px solid #00d9ff */
 }
+
 .skill-inner h2{
   font-size: 2em;
+  
+}
+.skill-inner p{
+  color:white
+
 }
 /* Skills Section End */
 
 
 
 /* Testimonial section Start */
-.Testimonial{
+.Testimonial {
   width: 100%;
-  margin:5% auto;
+  margin: 10% auto;
 }
-.Testi h1{
-  font-family: 'Montserrat', sans-serif;
+.Testi h1 {
+  font-family: "Montserrat", sans-serif;
   font-size: 4em;
   color: #000;
   margin-bottom: 0;
-
 }
-.Testi p{
+.Testi p {
   font-size: 20px;
   color: #000;
 }
-.testimonials{
+.testimonials {
   align-items: center;
   width: 60%;
-  border: 1px solid rgb(133,0,255);
-  margin:5% auto;
+  border: 1px solid rgb(133, 0, 255);
+  margin: 5% auto;
   padding: 20px;
 }
-.testimonials img{
+.testimonials img {
   width: 90px;
   height: 90px;
   border-radius: 50%;
-  border:2px solid rgb(133,0,255);
+  border: 2px solid rgb(133, 0, 255);
   margin: 0px;
-  padding:0px ;
+  padding: 0px;
 }
-.testimonials p{
+.testimonials p {
   font-size: 20px;
 }
-.testimonials h3{
-  font-size:25px ;
+.testimonials h3 {
+  font-size: 25px;
   font-weight: bolder;
   margin: 0px;
   text-transform: uppercase;
-  padding:0px ;
+  padding: 0px;
 }
-.testimonials h4{
+.testimonials h4 {
   font-size: 20px;
   margin: 0px;
-  padding:0px ;
-
+  padding: 0px;
 }
 
 /* Testimonial section End */

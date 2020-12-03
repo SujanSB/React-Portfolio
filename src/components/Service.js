@@ -12,9 +12,9 @@ function Service() {
           <div className="service-1">
             <div className="inner-part">
               <i class="fas fa-paint-brush"></i>
-                <h2>{data.skills[0].name}</h2>
+                <h2>{data.service[0].name}</h2>
               <p>
-              {data.skills[0].desc}
+              {data.service[0].desc}
               </p>
             </div>
           </div>
@@ -22,9 +22,9 @@ function Service() {
           <div className="service-2">
             <div className="inner-part">
               <i class="fas fa-code"></i>
-              <h2>{data.skills[1].name}</h2>
+              <h2>{data.service[1].name}</h2>
               <p>
-              {data.skills[1].desc}
+              {data.service[1].desc}
 
               </p>
             </div>
@@ -33,9 +33,9 @@ function Service() {
           <div className="service-3">
             <div className="inner-part">
               <i class="fas fa-cogs"></i>
-              <h2>{data.skills[2].name}</h2>
+              <h2>{data.service[2].name}</h2>
               <p>
-              {data.skills[2].desc}
+              {data.service[2].desc}
                
               </p>
             </div>
