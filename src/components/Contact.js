@@ -4,25 +4,15 @@ import data from "../yourdata";
 
 function Contact() {
   return (
-    <div>
+    <div className="Contact">
       <h1>
   <Fade bottom cascade> Contact.</Fade>
   </h1>
   <Fade bottom>
-    <div className="toppart">
-      <h2 className="tophead">You Can Find Me on </h2>
-      <div className="social-icons">
-        <div className="facebook">
-          <i className="fab fa-instagram"></i>
-        </div>
-        <div className="twitter">
-          <i className="fab fa-github-square"></i>
-        </div>
-        <div className="google">
-          <i className="fab fa-facebook-square"></i>
-        </div>
-      </div>
-    </div>
+
+
+
+    
     <div className="adjustit">
       <div className="downpart">
         <div className="oneside">

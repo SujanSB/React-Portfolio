@@ -697,6 +697,147 @@ height: 18em;
   margin-top: 3%;
   font-size: 25px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contact form  Start*/
+.Contact{
+  justify-content: center;
+  background-color: black;
+  position: relative;
+  top:0;
+  height: 100vh;
+
+}
+.adjustit{
+	width: 80%;
+  margin:auto;
+  position: relative;
+}
+
+
+.downpart{
+  position: relative;
+	width: 80%;
+	overflow: none;
+	margin:auto;
+	display: inline-flex;
+
+	padding: 30px 100px;
+	justify-content: space-around;
+
+
+
+}
+.oneside{
+	width: 50%;
+	padding: 30px;
+  background-color: lightgray;
+
+}
+
+.form,.form-items
+{
+  width: 100%;
+}
+.sidehead{
+	font-size: 25px;
+	text-align: left;
+	margin: 10px;
+	font-family: 'Satisfy', cursive;
+}
+.form-items .input{
+  width: 100%;
+  margin-bottom: 13px;
+  padding: 10px 25px;
+  box-sizing: border-box;
+  border: 0px;
+  border-bottom: 2px solid black;
+  box-shadow: 0 0 3px;
+  outline: none;
+  border-radius: 5px;
+  background-color: none;
+}
+
+.form-items .input.message{
+  height: 80px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  resize: none;
+}
+.form-items .fas{
+	position: relative;
+	top:-45px;
+	left:4px;
+}
+.submit{
+  background: rgb(2, 2, 2);
+  text-align: center;
+  color: #fff;
+  float: right;
+  width: 100px;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.btn .fas{
+	font-size: 20px;
+}
+
+
+.anotherside{
+	margin-left: 20px;
+	width: 50%;
+	background-color: rgb(39, 39, 39);
+	height: 50%;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: white;
+	padding:15px;
+
+}
+.anotherside .bigmail .fas{
+	font-size: 80px;
+	color:white;
+	margin: 15px;
+}
+.shortinfo{
+	font-family: 'Satisfy', cursive;
+}
+.footer{
+	height: 50px;
+	padding:15px;
+	font-size:25px;
+	background-color: black;
+	text-align: center;
+	align-items:center;
+	color:white;
+	overflow:hidden;
+}
+
+/* Contact form End */
+
+
+
+
+
+
+
+
+
 /* SMARTPHONES  responsive*/
 @media only screen and (min-device-width: 320px) and (max-device-width : 700px){
 
@@ -821,6 +962,14 @@ height: 45em;
   
   margin: auto;
 }
+
+
+
+
+
+
+
+
 
 
 }
