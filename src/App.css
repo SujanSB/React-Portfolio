@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 body{
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
@@ -8,7 +8,7 @@ body{
   z-index: 1;
   margin: 0;
   padding: 0;
-  /* background-color: #1eeb03; */
+  /* background-color: #202020; */
 }
 
 
@@ -20,37 +20,47 @@ body{
   
 .Topnavbar{
   position: fixed;
-  height: 80px;
+  height: 13%;
   overflow: hidden;
   top: 0;
+  z-index: 100;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  background: #f1f1f1;
+  /* background: rgba(0,0,0,0.2); */
   width: 100%;
 }
-.brand{
-  color: #000;
-  font-size: 25px;
+.brand {
+  font-size: 45px;
   font-weight: bold;
-  background-size: contain;
-  width: 180px;
-  height: 18px;
-  float: left;
-  margin-left:20px;
+  padding: 10px;
+  margin-left:18%;
+  text-shadow: 2px 3px black;
+  font-family: 'Sacramento', cursive;
+  color: yellow !important;
+}
+.brand a{
+  color: yellow !important;
+  text-decoration: none;
+
 }
 .Topmenu{
   position: relative;
-  right: 20px;
+  right: 27%;
 }
 .Topmenu a{
-  color: #333;
+  color: yellow !important;
   text-decoration: none;
-  font-weight: 700;
-  margin-left: 20px;
+  margin-right: 25%;
   transition: color 0.3s;
+  border-radius: 70% 60% 30% 70%/10% 50% 70% 90%;
+  position:relative;
+  font-weight: bold;
+  background-color: indigo;
   text-transform: uppercase;
+  padding:15px 20px;
 }
-.meTopmenunu a:hover{
+.Topmenu a:hover{
   color: #6ab04c;
 }
 
@@ -58,7 +68,10 @@ body{
 
 
 
+
 /* Top nav */
+
+
 /* 
 .Home {
   margin: 0;
@@ -91,7 +104,6 @@ body{
 section{
   position: relative;
   width: 100%;
-  margin-top: 100px;
   height: 100vh;
   overflow: hidden;
   background-color: #111;
@@ -125,15 +137,14 @@ section #bichko{
 
 
 
-
-
 nav{
   position:fixed;
-  right:10%;
+  left:0%;
+  /* display: none; */
+  top:35%;
   background: linear-gradient(45deg, #8500ff, cyan);
 z-index: 100;
 color:white;
-border-bottom-left-radius: 25%;
 }
 nav ul{
   padding: 0;
@@ -142,15 +153,16 @@ nav ul{
 nav li{
   cursor: pointer;
   list-style: none;
-  margin: 20px;
+  margin: 15px;
   font-size: 1.2em;
+  font-weight: bold;
 }
 nav li .link{
   text-decoration: none;
+  text-transform: uppercase;
   color: black;
-  margin: 10px; 
-  padding:1em;
-  opacity: 0.5;
+  padding:0,.5em;
+  opacity: 0.7;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -211,6 +223,7 @@ li .link:hover{
 }
 
 .About{
+  position: relative;
   width: 80%;
   margin:5% auto;
 }
@@ -337,6 +350,7 @@ li .link:hover{
   height: 320px;
   max-width: 320px;
   
+  box-shadow: 0 0 10px black;
 }
 .service-1{
   color: #fff ;

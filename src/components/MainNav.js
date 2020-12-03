@@ -9,7 +9,9 @@ function MainNav() {
         // </div>
             <div class="Topnavbar">
                 <div class="brand">
-                        InvalisSB
+                    <NavLink  exact to="/" > InvalidSB</NavLink>
+
+                       
                 </div>
                     <a class="btn">
                     <span></span>
@@ -17,7 +19,7 @@ function MainNav() {
                     <span></span>
                     </a>
                 <div class="Topmenu">
-                    <NavLink  exact to="/" >Home</NavLink>
+                    {/* <NavLink  exact to="/" >Home</NavLink> */}
                     <NavLink  exact to="/Blog" >Blogs</NavLink>
                     <NavLink exact to="/Contact" >Contact</NavLink>
                 </div>
