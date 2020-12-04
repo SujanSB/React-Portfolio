@@ -3,13 +3,13 @@ import {NavLink,Link} from 'react-router-dom'
 function MainNav() {
     return (
        
-            <div class="Topnavbar">
-                <div class="brand">
+            <div className="Topnavbar">
+                <div className="brand">
                     <NavLink  exact to="/" > InvalidSB</NavLink>
 
                        
                 </div>
-                    <Link class="btn">
+                    <Link className="btn">
                     <span></span>
                     <span></span>
                     <span></span>
