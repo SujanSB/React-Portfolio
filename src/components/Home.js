@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Fade from "react-reveal/Fade";
 import data from "../yourdata";
 
@@ -18,7 +18,7 @@ import img12 from "../assets/images/12.png";
 function Home() {
   return (
     <div className="Home">
-      
+      <Fade>
       <section ClassName="section">
         <img src={img1} data-speed="-5" class="layer" alt="cover" />
         <img src={img2} data-speed="5" class="layer" alt="cover" />
@@ -42,6 +42,7 @@ function Home() {
           </h1>
         </div>
       </section>
+      </Fade>
     </div>
   );
 }
