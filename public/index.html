@@ -5,7 +5,8 @@
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
     <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet"> <!--load all styles -->
@@ -34,6 +35,10 @@
     </script>
     
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-   
+   <script>
+        $(".btn").on("click",function(){
+      $('.menu').toggleClass("show");
+    });
+   </script>
   </body>
 </html>

@@ -10,15 +10,12 @@ body{
   padding: 0;
   color: #fff ;
 
-  background-color: #202020;
-  /* background-image: url('https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366__340.jpg'); */
+  /* background-color: #202020; */
+  background-image: url('https://i.pinimg.com/236x/7b/22/68/7b2268238c7735bfb9f5399db002adc0.jpg');
 
 }
 
 
-.App {
-  text-align: center;
-}
 /* Top nav */
 
   
@@ -32,7 +29,6 @@ body{
   justify-content: space-between;
   align-items: center;
   /* background: rgba(0,0,0,0.2); */
-  width: 100%;
 }
 .brand {
   font-size: 55px;
@@ -298,7 +294,7 @@ li .link:hover{
   color:white;
   margin:5% auto;
   width: 80%;
-  z-index: 10;
+  z-index: 200;
 }
 .Service h1{
   font-family: 'Montserrat', sans-serif;
@@ -323,9 +319,9 @@ li .link:hover{
   padding: 2%;
   mix-blend-mode: multiply;
   height: 320px;
-  max-width: 320px;
+  max-width: calc(33% - 80px);
   z-index: 200;
-  box-shadow: 0 0 10px black;
+  box-shadow: 0 0 20px black;
 }
 .service-1{
   color: #fff ;
@@ -475,8 +471,10 @@ height: 18em;
 .skill-box{
   padding: 2em 0em 8em 0em;
   margin: auto;
-  background:linear-gradient(45deg,black,white,black);
-  background-position: center;
+  background:linear-gradient(45deg,black,white,white,black);
+  
+   background-color: white;
+  background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -822,7 +820,247 @@ height: 18em;
 
 
 /* SMARTPHONES  responsive*/
-@media only screen and (min-device-width: 320px) and (max-device-width : 700px){
+@media only screen and (max-width : 600px) {
+
+
+
+
+
+.Topnavbar{
+  position: fixed;
+  overflow: hidden;
+  background: rgba(247, 3, 3, 0.9);
+  left:0;
+}
+.brand {
+  font-size: 25px;
+  text-align: center;
+  text-shadow: 1px 2px black;
+}
+.brand a{
+  color: yellow !important;
+  text-decoration: none;
+
+}
+.Topmenu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 14px;
+}
+.Topmenu a{
+  color: yellow !important;
+  text-decoration: none;
+  border-radius: 70% 60% 30% 70%/10% 50% 70% 90%;
+  position:relative;
+  padding:3px 8px;
+  box-shadow: 0 0 5px black;
+}
+
+section{
+  position: relative;
+  /* height: 100vh; */
+  overflow: hidden;
+  display:flex;
+}
+section img{
+  background-color: #000;
+  display: none;
+}
+
+section #bichko{
+  padding: 30;
+  position: relative;
+  color:white;
+  font-size: 25px;
+
+}
+#bichko spam{
+  color: cyan;
+  text-shadow: 0px 1px white;
+}
+
+
+nav{
+  display: none;
+}
+
+
+.About img{
+  display: none;
+}
+
+.About{
+  position: relative;
+  width: 100%;
+  margin:6% auto;
+    
+}
+
+
+
+
+.about-content{
+  position: relative;
+  padding: 2%;
+  width: 100%;
+}
+
+.about-content h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  text-align: left;
+}
+.about-content p{
+  font-size: 16px;
+  text-align: left;
+  
+}
+.about img{
+  size: 30%;
+  /* margin-left:10em; */
+}
+
+.list{
+  
+  margin-top:0px;
+  border-bottom:1px solid #dee2e6;
+}
+.list p{
+  margin:0px 0px;
+  padding: 0;
+}
+.info .list label{
+	padding-right:10px;
+  color: #fff ;
+  /* width: 100%; */
+	font-size:16px;
+}
+.count-project {
+  margin: 30px auto;
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+  justify-content: center;
+}
+.count-project .count-number{
+  font-size: 2em;
+  /* width: 100%; */
+  font-weight: bolder;
+  text-align: left;
+}
+.count-project .project-text{
+  /* width: 100%; */
+  margin:auto;
+  padding: 10px;
+  text-align: left;
+
+}
+.project-text h3{
+  text-transform: uppercase;
+  font-size: 16px;
+  margin: 0;
+  text-align: left;
+  padding: 0;
+}
+.project-text p{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+
+/* Service Section Start */
+
+.Service{
+  color:white;
+  margin:30px auto;
+  width: 95%;
+  z-index: 200;
+}
+.Service h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  margin-bottom: 0;
+}
+.Service p{
+  font-size: 16px;
+}
+
+.services i{
+  font-size: 2em;
+  margin:1rem ;
+}
+.service{
+  display: flex;
+  flex-direction: column !important;
+}
+.service-1,.service-2,.service-3{
+  padding: 2%;
+  height: 320px;
+  z-index: 200;
+  margin:200px;
+  box-shadow: 0 0 20px black;
+}
+
+.services .inner-part{
+  padding: 2%;
+  width:320px;
+}
+.services .inner-part h2{
+  font-size: 1.5em;
+  margin:0;
+  padding:0;
+}
+.services .inner-part p{
+  margin:0px;
+  font-size: 16px;
+  color: #fff;
+}
+
+/* work  */
+
+
+.Works{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width:80%;
+  margin:5% auto;
+  align-items: flex-start;
+}
+.Works .heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  margin-bottom: 0;
+
+}
+.Works p{
+  font-size: 16px;
+}
+.Works .work-content{
+  display: grid;
+  width:100%;
+  margin:1% auto;
+  grid-template-columns: repeat(1,1fr);
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+/* IPADS and 14inch laptop */
+
+
+@media only screen and (min-device-width: 700px) and (max-device-width : 1230px){
 
   body{
     font-size: 6px;

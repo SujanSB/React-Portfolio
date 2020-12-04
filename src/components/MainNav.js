@@ -9,11 +9,7 @@ function MainNav() {
 
                        
                 </div>
-                    <Link className="btn">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    </Link>
+                    
                 <div class="Topmenu">
                     <NavLink  exact to="/Blog" >Blogs</NavLink>
                     <NavLink exact to="/Contact" >Contact</NavLink>

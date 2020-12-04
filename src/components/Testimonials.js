@@ -15,7 +15,7 @@ function Testimonials() {
       <p> People I've worked with have said some nice things... </p>
       
 
-      <Carousel initialActiveIndex={0}  autoPlaySpeed={7000} showArrows={false}>
+      <Carousel initialActiveIndex={0}  autoPlaySpeed={7000} showArrows={true}>
         {yourdata.testimonials.map((testimonials) => (
           <div class="testimonials">
             <div>
