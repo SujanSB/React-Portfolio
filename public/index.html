@@ -9,14 +9,13 @@
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
     <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet"> <!--load all styles -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
     <title>Sujan Bhattarai</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div id="root">
+    </div>
 
     <script type="text/javascript">
       document.addEventListener("mousemove",parallax);
@@ -35,35 +34,6 @@
     </script>
     
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" ></script>
-    <script >
-      $(".skillset").owlCarousel({
-    items: 2,
-loop: true,
-margin: 10,
-lazyLoad: true,
-autoplay:true,
-autoplayTimeout:2000,
-autoplayHoverPause:true,
-merge: true, 
-video: true,
-responsive:{	
-0:{
-items:1
-},
-
-678:{
-items:2
-},
-
-960:{
-items:3
-}
-    }
-  });
-  if ($(window).width() <768) {
-    $('.skillset').removeClass('.owl-carousel')
-  }
-    </script>
+   
   </body>
 </html>

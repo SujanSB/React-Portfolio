@@ -4,7 +4,7 @@ export default
         homepageData: ['Hello you found me .','Wellcome!!',],
 
         contactEmail:'invalidSB45@gmail.com',
-        abouttext: "I am a Computer engineering student currently at third year. I have a deep curiocity on Data-Science and Web development. Love to learn new things #peace..",
+        abouttext: "I am a Computer engineering student currently at third year. I have a deep curiosity on Data-Science and Web development. Love to learn new things #peace..",
         aboutImage:'https://pbs.twimg.com/media/Dw7EWPGXcAA11va?format=jpg&name=small',
         ShowAboutImage:true,
         age:22,
@@ -117,18 +117,18 @@ export default
               name: "Prerit Bhandari",
               whoami: "Founder of initdevelops",
               image:
-                "https://cdn.pixabay.com/photo/2017/10/24/07/13/hacker-2883635__340.jpg",
+                "https://avatars3.githubusercontent.com/u/46107123?s=460&u=c875de430614cd3e98648582db1bb7feae1ed6a8&v=4",
               describe:
-                "Sujan is a very enthusiastic learner. I have collabed with him on many projects. Interesting Person.",
+                "Sujan is a very enthusiastic learner. I have collabed with him on many projects. Interesting Person. Lorem ipsum,similique cum in dolor? Suscipit quis officiis numquam possimus minus distinctio eveniet corporis expedita in?",
             },
             {
               id: 2,
               name: "Anuj Poudel",
               whoami: "Founder of invocea",
               image:
-                "https://cdn.pixabay.com/photo/2017/10/24/07/13/hacker-2883635__340.jpg",
+                "https://avatars2.githubusercontent.com/u/70255790?s=460&u=a321e813dc8fbce1d089d1de222b54b6fe3debab&v=4",
               describe:
-                "Sujan is a very enthusiastic learner. I have collabed with him on many projects. Interesting Person.",
+              "Sujan is a very enthusiastic learner. I have collabed with him on many projects. Interesting Person. Lorem ipsum,similique cum in dolor? Suscipit quis officiis numquam possimus minus distinctio eveniet corporis expedita in?",
             },
           ],
 

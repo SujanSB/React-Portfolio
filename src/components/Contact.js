@@ -9,11 +9,11 @@ function Contact() {
   <Fade bottom cascade> Contact.</Fade>
   </h1>
   <Fade bottom>
-
-
-
-
     <div className="adjustit">
+
+
+
+
       <div className="downpart">
         <div className="oneside">
           <div className="form">
@@ -45,9 +45,11 @@ function Contact() {
         </div>
       </div>
     </div>
+
+
+  </Fade>
+  <Fade>
     <Footer/>
-
-
   </Fade>
   
     </div>
