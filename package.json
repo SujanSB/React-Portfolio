@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "netlify-cli": "^2.69.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-elastic-carousel": "^0.9.5",

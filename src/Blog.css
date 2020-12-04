@@ -1,0 +1,17 @@
+
+.Blogs{
+    justify-content: center;
+    background-color: black;
+    position: relative;
+    padding:100px 0px 40px 0px;
+  
+  }
+  .Blogs h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
+    text-align: left;
+    color: white !important;
+  }
+  .Blogs p{
+      text-align: center;
+  }

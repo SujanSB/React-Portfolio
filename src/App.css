@@ -68,39 +68,17 @@ body{
 
 /* Top nav */
 
-
-/* 
-.Home {
-  margin: 0;
-  padding: 0;
-  position: relative;
-  min-height: 100vh;
-  width: 100%;
-  margin: auto;
-  color: black;
-}
-.Home:before{
-  content: "";
-  background:url('https://cdn.pixabay.com/photo/2015/11/19/21/10/knowledge-1052010_960_720.jpg');
-  background-size: cover;
-  position: absolute;
-  background-position: center;
-  background-attachment: fixed;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  
-}
-.Home header{
-  font-family: 'Satisfy', cursive;
-  font-size: 35px;
-  text-shadow: 0 0 5px;
+/* .Home{
+  width:100%;
+  padding:0;
+  background-color: black;
 } */
+
 
 section{
   position: relative;
   width: 100%;
+  padding: 0;
   height: 100vh;
   overflow: hidden;
   background-color: #111;
@@ -527,14 +505,7 @@ height: 18em;
   border-radius: 10px;
   color:#ffffff;
 
-  /* box-shadow: 0 0 5px;
-  flex:0 0 calc(33.33% - 25px);
-  max-width: calc(33.33% - 25px);
-  background-color: #030303;
-  border-radius: 20px;
-  margin: 20px;
-  padding: 20px 10px;
-  border:1px solid #00d9ff */
+  
 }
 
 .skill-inner h2{
@@ -567,30 +538,31 @@ height: 18em;
 .testimonials {
   align-items: center;
   width: 60%;
-  border: 1px solid rgb(133, 0, 255);
+  /* border: 1px solid rgb(133, 0, 255); */
   margin: 5% auto;
   padding: 20px;
 }
 .testimonials img {
   width: 90px;
   height: 90px;
-  border-radius: 50%;
-  border: 2px solid rgb(133, 0, 255);
+  border-radius: 90% 60% 89% 28%/90% 56% 19% 30%;
+  /* border: 2px solid rgb(133, 0, 255); */
   margin: 0px;
+  object-fit: center;
   padding: 0px;
 }
 .testimonials p {
   font-size: 20px;
 }
 .testimonials h3 {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: bolder;
   margin: 0px;
   text-transform: uppercase;
   padding: 0px;
 }
 .testimonials h4 {
-  font-size: 20px;
+  font-size: 16px;
   margin: 0px;
   padding: 0px;
 }
@@ -659,7 +631,7 @@ height: 18em;
 .Footer{
   width:100%;
   bottom: 0;
-  padding: 30px;
+  padding: 20px;
   background-color: black;
 }
 .footer{
@@ -693,9 +665,10 @@ height: 18em;
   background-color: #8500ff;
 }
 .footer .copyright{
-  align-items: center;
+  align-items: center !important;
   margin-top: 3%;
   font-size: 25px;
+
 }
 
 
@@ -715,13 +688,18 @@ height: 18em;
   justify-content: center;
   background-color: black;
   position: relative;
-  top:0;
-  height: 100vh;
+  padding:100px 0px 40px 0px;
 
+}
+.Contact h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4em;
+  text-align: left;
+  color: white !important;
 }
 .adjustit{
 	width: 80%;
-  margin:auto;
+  margin:40px auto;
   position: relative;
 }
 
@@ -817,16 +795,11 @@ height: 18em;
 .shortinfo{
 	font-family: 'Satisfy', cursive;
 }
-.footer{
-	height: 50px;
-	padding:15px;
-	font-size:25px;
-	background-color: black;
-	text-align: center;
-	align-items:center;
-	color:white;
-	overflow:hidden;
+.Contact p{
+  text-align: center;  
+
 }
+
 
 /* Contact form End */
 

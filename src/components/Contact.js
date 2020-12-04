@@ -1,7 +1,7 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import data from "../yourdata";
-
+import Footer from './Footer'
 function Contact() {
   return (
     <div className="Contact">
@@ -12,7 +12,7 @@ function Contact() {
 
 
 
-    
+
     <div className="adjustit">
       <div className="downpart">
         <div className="oneside">
@@ -45,9 +45,7 @@ function Contact() {
         </div>
       </div>
     </div>
-    <div className="footer">
-      <p>2020 &copy; Sujan Bhattarai</p>
-    </div>
+    <Footer/>
 
 
   </Fade>
