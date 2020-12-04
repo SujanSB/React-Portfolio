@@ -71,15 +71,6 @@ body{
 
 
 
-/* Top nav */
-
-/* .Home{
-  width:100%;
-  padding:0;
-  background-color: black;
-} */
-
-
 section{
   position: relative;
   width: 100%;
@@ -307,7 +298,7 @@ li .link:hover{
   color:white;
   margin:5% auto;
   width: 80%;
-  z-index: 100;
+  z-index: 10;
 }
 .Service h1{
   font-family: 'Montserrat', sans-serif;
@@ -484,7 +475,7 @@ height: 18em;
 .skill-box{
   padding: 2em 0em 8em 0em;
   margin: auto;
-  background:url('https://cdn.pixabay.com/photo/2017/07/31/16/12/laptop-2558666_960_720.jpg');
+  background:linear-gradient(45deg,black,white,black);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -507,7 +498,7 @@ height: 18em;
 
   flex:0 0 calc(30% - 45px);
   max-width: calc(30% - 45px);
-  background-color: rgb(27, 27, 27);
+  background-color: rgb(56, 56, 56);
   padding: 20px 10px;
   border-radius: 10px;
   color:#ffffff;
